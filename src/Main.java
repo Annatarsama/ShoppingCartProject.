@@ -5,20 +5,20 @@ public class Main {
 
         UserManager u1 = new UserManager("name","surname","username","password","mail@example.com");
 
-        u1.register("Tuncay","Çelikkanat","tncy","şifre","tuncayclkknt@gmail.com");
+        u1.register("can","ugurtepe","cannatar","0987","can@gmail.com");
 
-        u1.login("canugurtepe","yenisifre123");
+        u1.login("cannatar","0987");
 
         System.out.println(u1.getUsername());
         System.out.println(u1.getPassword());
         System.out.println(u1.getEmail());
         System.out.println();
 
-        u1.updateUsername("canenes@gmail.com","enes");
+        u1.updateUsername("can@gmail.com","playboycarti");
 
-        u1.updatePassword("enes", "4321");
+        u1.updatePassword("playboycarti", "1234567890");
 
-        u1.updateEmail("enes","enescann@hotmail.com");
+        u1.updateEmail("playboycarti","cang@hotmail.com");
         System.out.println();
 
         System.out.println(u1.getUsername());

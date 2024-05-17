@@ -64,7 +64,7 @@ public class UserManager extends User{
 
         if(didLogin){
             UpdateUser app = new UpdateUser();
-            app.updatePassword(email,newPassword);
+            app.updatePassword(username,newPassword);
         } else {
             System.out.println("you have to login before making any changes");
         }

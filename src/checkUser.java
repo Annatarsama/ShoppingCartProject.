@@ -35,7 +35,7 @@ public class checkUser {
             } else {
                 doesUserExists = false;
             }
-
+            conn.close();
         } catch(SQLException e){
             System.out.println(e.getMessage());
         }
